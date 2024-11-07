@@ -1,10 +1,11 @@
-import Nav from "./Components/Nav";
+import Nav from "./Components/Nav"
 
 
-export const App = () => {
+const App = () => {
   return (
-    <div className="bg-slate-600">
+    <div className="bg-slate-900">
       <Nav/>
+      
     </div>
   )
 }
