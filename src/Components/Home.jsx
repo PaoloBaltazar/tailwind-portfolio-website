@@ -9,7 +9,7 @@ const Home = () => {
           <h1 className='font-bold text-3xl lg:text-5xl'>Paolo Baltazar,</h1>
           <h1 className='font-bold text-3xl lg:text-5xl mb-8'>front-end developer</h1>
 
-          <p className='text-base mb-8 md:text-lg'>
+          <p className='text-base mb-8 lg:text-lg'>
             Aspiring web developer passionate about creating dynamic and responsive websites. I specialize in HTML, CSS, JavaScript, and React, aiming to build efficient and user-friendly applications.
           </p>
           
