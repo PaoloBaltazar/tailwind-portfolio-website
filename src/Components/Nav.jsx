@@ -49,7 +49,7 @@ const Nav = () => {
     <nav className={`fixed w-full z-50 transition-all duration-300 ${navBackground ? 'bg-slate-900' : 'bg-transparent'}`}>
       <div className="h-10vh flex justify-between text-white lg:py-5 px-20 py-4">
         <div className="flex items-center flex-1">
-          <span className="text-3xl font-bold">Logo</span>
+          <span className="text-3xl font-bold">GPB</span>
         </div>
 
         <div className="lg:flex md:flex lg:flex-1 items-center justify-end font-normal hidden">
