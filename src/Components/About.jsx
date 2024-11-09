@@ -4,7 +4,7 @@ const About = () => {
       <section className="h-lvh text-white content-center">
         <div className='justify-items-center mb-8'>
           <div className="border-b-2 border-fuchsia-600">
-            <h1 className="font-bold text-3xl mb-3 lg:text-4xl">About</h1>
+            <h1 className="font-bold text-3xl mb-3 lg:text-6xl">About</h1>
           </div>
           
           <h2 className="font-medium text-lg mt-2 lg:text-xl">Hi, I’m Paolo, Nice to Meet you. </h2>

@@ -4,10 +4,10 @@ const Home = () => {
   return (
     <div className="max-w-7xl mx-auto px-4">
       <section className='h-lvh grid gap-8 content-center justify-items-center md:grid-cols-2'>
-        <div className='text-white text-center content-center md:text-left md:m-16'>
-          <p className='font-medium text-lg lg:text-xl'>Hi, my name is</p>
-          <h1 className='font-bold text-3xl lg:text-5xl'>Paolo Baltazar,</h1>
-          <h1 className='font-bold text-3xl lg:text-5xl mb-8'>front-end developer</h1>
+        <div className='text-white text-center content-center md:text-left md:m-12'>
+          <p className='font-medium text-lg md:text-md lg:text-xl'>Hi, my name is</p>
+          <h1 className='font-bold text-3xl md:text-5xl lg:text-6xl'>Paolo Baltazar,</h1>
+          <h1 className='font-bold text-3xl md:text-5xl lg:text-6xl mb-8'>Software Engineer</h1>
 
           <p className='text-base mb-8 lg:text-lg'>
             Aspiring web developer passionate about creating dynamic and responsive websites. I specialize in HTML, CSS, JavaScript, and React, aiming to build efficient and user-friendly applications.
