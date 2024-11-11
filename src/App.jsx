@@ -8,7 +8,7 @@ import Footer from "./Components/Footer";
 
 const App = () => {
   return (
-    <div className="bg-slate-900">
+    <div className="bg-black">
       <Nav />
       <div id="Home">
         <Home />

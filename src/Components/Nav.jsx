@@ -24,7 +24,7 @@ const Nav = () => {
   }, []);
 
   const content = (
-    <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-slate-900 transition">
+    <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-black transition">
       <ul className="text-center text-xl p-20">
         <Link spy={true} smooth={true} to="Home">
           <li className="font-primaryMedium my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Home</li>
@@ -46,7 +46,7 @@ const Nav = () => {
   );
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${navBackground ? 'bg-slate-900' : 'bg-transparent'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${navBackground ? 'bg-black' : 'bg-transparent'}`}>
       <div className="h-10vh flex justify-between text-white lg:py-5 px-20 py-4">
         <div className="flex items-center flex-1">
           <span className="font-primaryBold text-3xl font-bold">GPB</span>

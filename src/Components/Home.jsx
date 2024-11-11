@@ -1,9 +1,14 @@
 import profile from '../assets/profile.jpg';
+import { Spotlight } from "./ui/Spotlight";
 
 const Home = () => {
   return (
-    <div className="max-w-7xl mx-auto px-4">
-      <section className='h-lvh grid gap-8 content-center justify-items-center md:grid-cols-2'>
+    <div className="h-lvh  rounded-md flex md:items-center md:justify-center bg-black/[0.96] antialiased bg-grid-white/[0.02] relative overflow-hidden">
+      <Spotlight
+        className="-top-40 left-0 md:left-50 md:-top-20"
+        fill="white"
+      />
+      <section className='max-w-7xl mx-auto px-4 grid gap-8 content-center justify-items-center md:grid-cols-2'>
         <div className='text-white text-center content-center md:text-left md:m-8'>
           <p className='font-primaryMedium text-lg md:text-md lg:text-xl'>Hi, my name is</p>
           <h1 className='font-primaryBold text-3xl md:text-5xl lg:text-6xl'>Paolo Baltazar,</h1>
