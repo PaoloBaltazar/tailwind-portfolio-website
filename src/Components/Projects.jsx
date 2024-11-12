@@ -1,13 +1,16 @@
+"use client";
+import React from "react";
+import { PinContainer } from "./ui/3d-pin";
 import littleLemon from '../assets/little-lemon.png'
 import todolist from '../assets/todo-list.png'
 import weatherApp from '../assets/weather-app.png'
 import gradePredictorApp from '../assets/thesisProject.png'
 import hotelApp from '../assets/bchainProject.png'
 
-const Projects = () => {
+export function Projects() {
   return (
-    <div className="max-w-7xl mx-auto px-4 mt-36">
-      <section className="text-white content-center">
+    (<div className="max-w-7xl mx-auto px-4 mt-36">
+      <section className="text-white content-center"> 
         <div className='justify-items-center mb-8'>
           <div className="border-b-2 border-fuchsia-600">
             <h1 className="font-primaryBold text-3xl mb-3 lg:text-5xl">Projects</h1>
@@ -16,62 +19,87 @@ const Projects = () => {
           <h2 className="font-primaryMedium text-lg mt-2 lg:text-xl">Check out some of my work right here</h2>
         </div>
 
-        <div className="grid gap-8 justify-items-center mb-16 md:grid-cols-2 lg:grid-cols-3">
-          <div class="group relative m-0 flex h-72 w-96 rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
-            <div class="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
-              <img src={littleLemon} class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
+        <div className="grid gap-16 justify-items-center mb-16 md:grid-cols-2 lg:grid-cols-3">
+          <PinContainer title="/PaoloBaltazar/Meta-LittleLemon-Booking-Website" href="https://github.com/PaoloBaltazar/Meta-LittleLemon-Booking-Website">
+          <div
+            className="flex basis-full  flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[18rem] h-[18rem] ">
+            <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+              Meta - Little Lemon Restaurant
+            </h3>
+            <div className="text-base !m-0 !p-0 font-normal">
+              <span className="text-slate-500 ">
+              React - HTML - CSS
+              </span>
             </div>
-            <div class="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
-              <h1 class="font-primaryMedium text-2xl text-white">Little Lemon Restaurant</h1>
-              <h1 class="text-sm font-primaryRegular text-gray-200">React - HTML - CSS</h1>
-            </div>
+            <img className="flex flex-1 w-full object-cover rounded-lg mt-4" src={littleLemon}/>
           </div>
+          </PinContainer>
 
-          <div class="group relative m-0 flex h-72 w-96 rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
-            <div class="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
-              <img src={todolist} class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
+          <PinContainer title="/PaoloBaltazar/thesis-grade-predictor-app" href="https://github.com/PaoloBaltazar/thesis-grade-predictor-app">
+            <div
+              className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[18rem] h-[18rem] ">
+              <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+                Grade Predictor App
+              </h3>
+              <div className="text-base !m-0 !p-0 font-normal">
+                <span className="text-slate-500 ">
+                  Python - HTML - CSS
+                </span>
+              </div>
+              <img className="flex flex-1 w-full object-cover rounded-lg mt-4" src={gradePredictorApp}/>
             </div>
-            <div class="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
-              <h1 class="text-2xl font-primaryMedium text-white">Todo-List App</h1>
-              <h1 class="text-sm font-primaryRegular text-gray-200">JavaScript - HTML - CSS</h1>
-            </div>
-          </div>
+          </PinContainer>
 
-          <div class="group relative m-0 flex h-72 w-96 rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
-            <div class="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
-              <img src={weatherApp} class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
+          <PinContainer title="/PaoloBaltazar/BlockChain-Based-Hotel-System" href="https://github.com/PaoloBaltazar/BlockChain-Based-Hotel-System">
+            <div
+              className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[18rem] h-[18rem] ">
+              <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+                Hotel Dapp
+              </h3>
+              <div className="text-base !m-0 !p-0 font-normal">
+                <span className="text-slate-500 ">
+                  Solidity - React - HTML - CSS
+                </span>
+              </div>
+              <img className="flex flex-1 w-full object-cover rounded-lg mt-4" src={hotelApp}/>
             </div>
-            <div class="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
-              <h1 class="font-primaryMedium text-2xl text-white">Weather App</h1>
-              <h1 class="text-sm font-primaryRegular text-gray-200">JavaScript - HTML - CSS</h1>
-            </div>
-          </div>
+          </PinContainer>
 
-          <div class="group relative m-0 flex h-72 w-96 rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
-            <div class="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
-              <img src={gradePredictorApp} class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
+          <PinContainer title="/PaoloBaltazar/Weather-App" href="https://github.com/PaoloBaltazar/Weather-App">
+            <div
+              className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[18rem] h-[18rem] ">
+              <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+                Weather App
+              </h3>
+              <div className="text-base !m-0 !p-0 font-normal">
+                <span className="text-slate-500 ">
+                  JavaScript - HTML - CSS
+                </span>
+              </div>
+              <img className="flex flex-1 w-full object-cover rounded-lg mt-4" src={weatherApp}/>
             </div>
-            <div class="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
-              <h1 class="font-primaryMedium text-2xl text-white">Grade Predictor App</h1>
-              <h1 class="text-sm font-primaryRegular text-gray-200">Python - HTML - CSS</h1>
-            </div>
-          </div>
+          </PinContainer>
 
-          <div class="group relative m-0 flex h-72 w-96 rounded-xl shadow-xl ring-gray-900/5 sm:mx-auto sm:max-w-lg">
-            <div class="z-10 h-full w-full overflow-hidden rounded-xl border border-gray-200 opacity-80 transition duration-300 ease-in-out group-hover:opacity-100 dark:border-gray-700 dark:opacity-70">
-              <img src={hotelApp} class="animate-fade-in block h-full w-full scale-100 transform object-cover object-center opacity-100 transition duration-300 group-hover:scale-110" alt="" />
+          <PinContainer title="/PaoloBaltazar/Todo-List-App" href="https://github.com/PaoloBaltazar/Todo-List-App">
+            <div
+              className="flex basis-full flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[18rem] h-[18rem] ">
+              <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+                Todo-List App
+              </h3>
+              <div className="text-base !m-0 !p-0 font-normal">
+                <span className="text-slate-500 ">
+                  JavaScript - HTML - CSS
+                </span>
+              </div>
+              <img className="flex flex-1 w-full object-cover rounded-lg mt-4" src={todolist}/>
             </div>
-            <div class="absolute bottom-0 z-20 m-0 pb-4 ps-4 transition duration-300 ease-in-out group-hover:-translate-y-1 group-hover:translate-x-3 group-hover:scale-110">
-              <h1 class="font-primaryMedium text-2xl text-white">Hotel Dapp</h1>
-              <h1 class="text-sm font-primaryRegular text-gray-200">Solidity - React - HTML - CSS</h1>
-            </div>
-          </div>
+          </PinContainer>
         </div>
-        
       </section>
 
-    </div>
-  )
-}
+      
+    </div>)
 
-export default Projects;
+    
+  );
+}

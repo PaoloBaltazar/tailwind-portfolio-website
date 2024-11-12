@@ -1,10 +1,7 @@
 import Nav from "./Components/Nav";
-import Home from "./Components/Home"; // Add paths as needed
-import About from "./Components/About";
-import Skills from "./Components/Skills";
-import Projects from "./Components/Projects";
-import Contact from "./Components/Contact";
+import Home from "./Components/Home";
 import Footer from "./Components/Footer";
+import { Main } from "./Components/Main";
 
 const App = () => {
   return (
@@ -13,18 +10,7 @@ const App = () => {
       <div id="Home">
         <Home />
       </div>
-      <div id="About">
-        <About />
-      </div>
-      <div id="Skills">
-        <Skills />
-      </div>
-      <div id="Projects">
-        <Projects />
-      </div>
-      <div id="Contact">
-        <Contact />
-      </div>
+      <Main />
       <Footer />
     </div>
   );
