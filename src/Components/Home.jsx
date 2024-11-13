@@ -1,14 +1,18 @@
 import profile from '../assets/profile.jpg';
 import { Spotlight } from "./ui/Spotlight";
 import { HoverBorderGradient } from "./ui/hover-border-gradient";
+import SocialLinks from './SocialLinks'; // Import the SocialLinks component
 
 const Home = () => {
   return (
-    <div className="h-lvh w-full dark:bg-black bg-white  dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2] relative flex items-center justify-center">
+    <div className="h-lvh w-full dark:bg-black bg-white dark:bg-grid-small-white/[0.2] bg-grid-small-black/[0.2] relative flex items-center justify-center">
       <Spotlight
         className="-top-40 left-0 md:left-50 md:-top-20"
         fill="white"
       />
+      
+      <SocialLinks />
+
       <section className='max-w-7xl mx-auto px-4 grid gap-8 content-center justify-items-center md:grid-cols-2'>
         <div className='text-white text-center content-center md:text-left md:m-8'>
           <p className='font-primaryMedium text-lg md:text-md lg:text-xl'>Hi, my name is</p>
@@ -32,27 +36,6 @@ const Home = () => {
         </div>
       </section>
     </div>
-  );
-};
-
-const AceternityLogo = () => {
-  return (
-    <svg
-      width="66"
-      height="65"
-      viewBox="0 0 66 65"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className="h-3 w-3 text-black dark:text-white"
-    >
-      <path
-        d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"
-        stroke="currentColor"
-        strokeWidth="15"
-        strokeMiterlimit="3.86874"
-        strokeLinecap="round"
-      />
-    </svg>
   );
 };
 

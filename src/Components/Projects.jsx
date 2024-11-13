@@ -12,7 +12,7 @@ export function Projects() {
     (<div className="max-w-7xl mx-auto px-4 mt-36">
       <section className="text-white content-center"> 
         <div className='justify-items-center mb-8'>
-          <div className="border-b-2 border-fuchsia-600">
+          <div className>
             <h1 className="font-primaryBold text-3xl mb-3 lg:text-5xl">Projects</h1>
           </div>
           

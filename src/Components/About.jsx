@@ -3,11 +3,11 @@ const About = () => {
     <div className="max-w-7xl mx-auto px-4 mb-36">
       <section className=" text-white content-center">
         <div className='justify-items-center mb-8'>
-          <div className="border-b-2 border-fuchsia-600">
+          <div>
             <h1 className="font-primaryBold text-3xl mb-3 lg:text-5xl">About</h1>
           </div>
           
-          <h2 className="font-primaryMedium text-lg mt-2 lg:text-xl">Hi, I’m Paolo, Nice to Meet you. </h2>
+          <h2 className="font-primaryMedium text-lg mt-2 lg:text-xl ">Hi, I’m Paolo, Nice to Meet you. </h2>
         </div>
 
         <div>

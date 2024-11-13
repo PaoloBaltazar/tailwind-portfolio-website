@@ -16,7 +16,7 @@ const Skills = () => {
     <div className="max-w-7xl mx-auto px-4">
       <section className="text-white content-center">
         <div className='justify-items-center mb-8'>
-          <div className="border-b-2 border-fuchsia-600">
+          <div>
             <h1 className="font-primaryBold text-3xl mb-3 lg:text-5xl">Skills</h1>
           </div>
           
@@ -29,11 +29,8 @@ const Skills = () => {
             animationSpeed={3}
             containerClassName="bg-black"
             colors={[
-              [236, 72, 153],
-              [232, 121, 249],
-
-              // [255, 255, 255],
-              // [245, 245, 245],
+              [255, 255, 255],
+              [245, 245, 245],
             ]}
             dotSize={2} />
           {/* Radial gradient for the cute fade */}
@@ -46,11 +43,8 @@ const Skills = () => {
             animationSpeed={3}
             containerClassName="bg-black"
             colors={[
-              [236, 72, 153],
-              [232, 121, 249],
-
-              // [255, 255, 255],
-              // [245, 245, 245],
+              [255, 255, 255],
+              [245, 245, 245],
             ]}
             dotSize={2} />
           {/* Radial gradient for the cute fade */}
@@ -63,11 +57,8 @@ const Skills = () => {
             animationSpeed={3}
             containerClassName="bg-black"
             colors={[
-              [236, 72, 153],
-              [232, 121, 249],
-
-              // [255, 255, 255],
-              // [245, 245, 245],
+              [255, 255, 255],
+              [245, 245, 245],
             ]}
             dotSize={2} />
           {/* Radial gradient for the cute fade */}
@@ -80,11 +71,8 @@ const Skills = () => {
             animationSpeed={3}
             containerClassName="bg-black"
             colors={[
-              [236, 72, 153],
-              [232, 121, 249],
-
-              // [255, 255, 255],
-              // [245, 245, 245],
+              [255, 255, 255],
+              [245, 245, 245],
             ]}
             dotSize={2} />
           {/* Radial gradient for the cute fade */}
@@ -97,11 +85,8 @@ const Skills = () => {
             animationSpeed={3}
             containerClassName="bg-black"
             colors={[
-              [236, 72, 153],
-              [232, 121, 249],
-
-              // [255, 255, 255],
-              // [245, 245, 245],
+              [255, 255, 255],
+              [245, 245, 245],
             ]}
             dotSize={2} />
           {/* Radial gradient for the cute fade */}
@@ -114,11 +99,8 @@ const Skills = () => {
             animationSpeed={3}
             containerClassName="bg-black"
             colors={[
-              [236, 72, 153],
-              [232, 121, 249],
-
-              // [255, 255, 255],
-              // [245, 245, 245],
+              [255, 255, 255],
+              [245, 245, 245],
             ]}
             dotSize={2} />
           {/* Radial gradient for the cute fade */}

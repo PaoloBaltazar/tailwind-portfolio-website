@@ -6,22 +6,33 @@ import { CiMenuFries } from "react-icons/ci";
 const Nav = () => {
   const [click, setClick] = useState(false);
   const [navBackground, setNavBackground] = useState(false);
+  const [scrollDirection, setScrollDirection] = useState("up");
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   const handleClick = () => setClick(!click);
 
   // Change background when scrolling past "Home" section
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > window.innerHeight * 0.01) { // Adjust 0.01 as needed
+      // Toggle background
+      if (window.scrollY > window.innerHeight * 0.01) {
         setNavBackground(true);
       } else {
         setNavBackground(false);
       }
+
+      // Hide/show nav based on scroll direction
+      if (window.scrollY > lastScrollY) {
+        setScrollDirection("down");
+      } else {
+        setScrollDirection("up");
+      }
+      setLastScrollY(window.scrollY);
     };
 
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  }, [lastScrollY]);
 
   const content = (
     <div className="lg:hidden block absolute top-16 w-full left-0 right-0 bg-black transition">
@@ -39,14 +50,14 @@ const Nav = () => {
           <li className="font-primaryMedium my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Projects</li>
         </Link>
         <Link spy={true} smooth={true} to="Contact">
-          <li className="font-primaryMedium -4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Contact</li>
+          <li className="font-primaryMedium my-4 py-4 border-b border-slate-800 hover:bg-slate-800 hover:rounded">Contact</li>
         </Link>
       </ul>
     </div>
   );
 
   return (
-    <nav className={` w-full z-50 transition-all duration-300 ${navBackground ? 'bg-black' : 'bg-transparent'}`}>
+    <nav className={`fixed w-full z-50 transition-transform duration-300 ${navBackground ? 'bg-black border-b border-white/[0.2]' : 'bg-transparent'} ${scrollDirection === "down" ? '-translate-y-full' : 'translate-y-0'}`}>
       <div className="h-10vh flex justify-between text-white lg:py-5 px-20 py-4">
         <div className="flex items-center flex-1">
           <span className="font-primaryBold text-3xl font-bold">GPB</span>

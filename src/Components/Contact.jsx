@@ -3,7 +3,7 @@ const Contact = () => {
     <div className="max-w-7xl mx-auto px-4 py-24">
       <section className=" text-white content-center">
         <div className='justify-items-center mb-8'>
-          <div className="border-b-2 border-fuchsia-600">
+          <div>
             <h1 className="font-primaryBold text-3xl mb-3 lg:text-5xl">Contact</h1>
           </div>
           
