@@ -2,14 +2,18 @@ const About = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 mb-36">
       <section className=" text-white content-center">
-        <div className='justify-items-center mb-8'>
+        <div className="justify-items-center mb-8">
           <div>
-            <h1 className="font-primaryBold text-3xl mb-3 lg:text-5xl">About</h1>
+            <h1 className="font-primaryBold text-3xl lg:text-5xl">About</h1>
+            <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-4 h-[1px] w-full" />
           </div>
           
-          <h2 className="font-primaryMedium text-lg mt-2 lg:text-xl ">Hi, I’m Paolo, Nice to Meet you. </h2>
+          
+          <h2 className="font-primaryMedium text-lg mt-2 lg:text-xl">
+            Hi, I’m Paolo, Nice to Meet you. 
+          </h2>
+          
         </div>
-
         <div>
           <h3 className="text-base font-primaryMedium italic mb-4 lg:text-xl">
             How did I start programming?

@@ -4,7 +4,7 @@ import mail from '../assets/mail-icon.png'
 
 const Footer = () => {
   return (
-    <div className="border-t border-white/[0.2] mt-36">
+    <div className="border-t border-white/[0.2]">
       <section>
         <div className="text-white justify-items-center py-16">
           <h1 className='font-primaryBold text-4xl mb-8'> GPB </h1>

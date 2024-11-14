@@ -11,12 +11,17 @@ export function Projects() {
   return (
     (<div className="max-w-7xl mx-auto px-4 mt-36">
       <section className="text-white content-center"> 
-        <div className='justify-items-center mb-8'>
-          <div className>
-            <h1 className="font-primaryBold text-3xl mb-3 lg:text-5xl">Projects</h1>
+        <div className="justify-items-center mb-8">
+          <div>
+            <h1 className="font-primaryBold text-3xl lg:text-5xl">Skills</h1>
+            <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-4 h-[1px] w-full" />
           </div>
           
-          <h2 className="font-primaryMedium text-lg mt-2 lg:text-xl">Check out some of my work right here</h2>
+          
+          <h2 className="font-primaryMedium text-lg mt-2 lg:text-xl">
+            Check out some of my work right here
+          </h2>
+          
         </div>
 
         <div className="grid gap-16 justify-items-center mb-16 md:grid-cols-2 lg:grid-cols-3">

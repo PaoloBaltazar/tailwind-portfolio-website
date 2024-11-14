@@ -67,20 +67,22 @@ const Nav = () => {
           <div className="flex-10">
             <ul className="flex gap-8 mr-16 text-[18px]">
               <Link spy={true} smooth={true} to="Home">
-                <li className="font-primaryMedium hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Home</li>
+                <li className="font-primaryMedium hover:text-fuchsia-600 transition border-b-2 border-transparent hover:border-fuchsia-600 cursor-pointer">Home</li>
               </Link>
               <Link spy={true} smooth={true} to="About">
-                <li className="font-primaryMedium hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">About</li>
+                <li className="font-primaryMedium hover:text-fuchsia-600 transition border-b-2 border-transparent hover:border-fuchsia-600 cursor-pointer">About</li>
               </Link>
               <Link spy={true} smooth={true} to="Skills">
-                <li className="font-primaryMedium hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Skills</li>
+                <li className="font-primaryMedium hover:text-fuchsia-600 transition border-b-2 border-transparent hover:border-fuchsia-600 cursor-pointer">Skills</li>
               </Link>
               <Link spy={true} smooth={true} to="Projects">
-                <li className="font-primaryMedium hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Projects</li>
+                <li className="font-primaryMedium hover:text-fuchsia-600 transition border-b-2 border-transparent hover:border-fuchsia-600 cursor-pointer">Projects</li>
               </Link>
               <Link spy={true} smooth={true} to="Contact">
-                <li className="font-primaryMedium hover:text-fuchsia-600 transition border-b-2 border-slate-900 hover:border-fuchsia-600 cursor-pointer">Contact</li>
+                <li className="font-primaryMedium hover:text-fuchsia-600 transition border-b-2 border-transparent hover:border-fuchsia-600 cursor-pointer">Contact</li>
               </Link>
+
+              
             </ul>
           </div>
         </div>
@@ -96,5 +98,7 @@ const Nav = () => {
     </nav>
   );
 };
+
+
 
 export default Nav;

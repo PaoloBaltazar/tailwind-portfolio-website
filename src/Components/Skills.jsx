@@ -15,12 +15,17 @@ const Skills = () => {
   return (
     <div className="max-w-7xl mx-auto px-4">
       <section className="text-white content-center">
-        <div className='justify-items-center mb-8'>
+        <div className="justify-items-center mb-8">
           <div>
-            <h1 className="font-primaryBold text-3xl mb-3 lg:text-5xl">Skills</h1>
+            <h1 className="font-primaryBold text-3xl lg:text-5xl">Skills</h1>
+            <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-4 h-[1px] w-full" />
           </div>
           
-          <h2 className="font-primaryMedium text-lg mt-2 lg:text-xl">These are the technologies I've worked with </h2>
+          
+          <h2 className="font-primaryMedium text-lg mt-2 lg:text-xl">
+            These are the technologies I’ve worked with
+          </h2>
+          
         </div>
 
         <div className="grid gap-8 justify-items-center md:grid-cols-2 lg:grid-cols-3">
