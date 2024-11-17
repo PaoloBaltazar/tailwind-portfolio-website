@@ -15,7 +15,7 @@ const Footer = () => {
             <img className= 'h-10 cursor-pointer' src={mail}/>
           </div>
 
-          <p className='font-primaryMedium text-lg'> 2024 copyright all right reserved</p>
+          <p className='font-primaryRegular text-sm'> 2024 copyright all right reserved</p>
         </div>
         
       </section>

@@ -9,7 +9,7 @@ import hotelApp from '../assets/bchainProject.png'
 
 export function Projects() {
   return (
-    (<div className="max-w-7xl mx-auto px-4 mt-36">
+    (<div className="max-w-7xl mx-auto px-4 mt-36 relative z-10">
       <section className="text-white content-center"> 
         <div className="justify-items-center mb-8">
           <div>
