@@ -17,7 +17,6 @@ export default {
         primaryRegular:['Regular'],
         primaryMedium:['Medium'],
         primaryBold:['Bold'],
-
       },
 
       animation: {

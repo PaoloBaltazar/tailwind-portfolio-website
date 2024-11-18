@@ -40,7 +40,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-24">
+    <div className="max-w-7xl mx-auto px-4 pt-24">
       <section className="text-white content-center">
         <div className="justify-items-center mb-8">
           <div>

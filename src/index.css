@@ -1,6 +1,10 @@
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 @font-face{
   font-family: "Regular";
@@ -19,4 +23,5 @@
   src: local("SpaceGrotesk-Bold"),
   url('./assets/fonts/SpaceGrotesk-Bold.ttf') format("truetype");
 }
+
 

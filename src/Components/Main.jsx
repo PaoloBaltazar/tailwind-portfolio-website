@@ -6,14 +6,15 @@ import Skills from './Skills';
 import { Projects } from './Projects';
 import Contact from './Contact';
 import { useMediaQuery } from 'react-responsive';
+import Footer from './Footer';
 
 export function Main() {
   const isMobile = useMediaQuery({ maxWidth: 640 }); // Tailwind's `sm` breakpoint
 
   return (
-    <>
+    <div className="pt-36">
       {isMobile ? (
-        <div className="px-4 max-w-6xl mt-24 sm:mt-36">
+        <div className="px-4 max-w-6xl">
           <div className="max-w-4xl mx-auto antialiased pt-4 relative">
             <div id="About">
               <About />
@@ -30,8 +31,8 @@ export function Main() {
           </div>
         </div>
       ) : (
-        <TracingBeam className="px-6 max-w-6xl mt-36">
-          <div className="max-w-5xl mx-auto antialiased pt-4 relative">
+        <TracingBeam className="px-6 max-w-7xl">
+          <div className="max-w-5xl mx-auto antialiased pt-4 relative ">
             <div id="About">
               <About />
             </div>
@@ -44,9 +45,10 @@ export function Main() {
             <div id="Contact">
               <Contact />
             </div>
+            
           </div>
         </TracingBeam>
       )}
-    </>
+    </div>
   );
 }

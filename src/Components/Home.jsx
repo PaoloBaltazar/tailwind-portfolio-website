@@ -10,15 +10,15 @@ const Home = () => {
         fill="white"
       />
       
-      <div className="sm:hidden">
+      <div className="hidden md:block">
         <SocialLinks />
       </div>
 
-      <section className="max-w-7xl mx-auto px-4 grid gap-8 content-center justify-items-center md:grid-cols-2">
-        <div className="text-white text-center content-center md:text-left md:ml-20">
-          <p className="font-primaryMedium text-lg md:text-md lg:text-xl">Hi, my name is</p>
+      <section className="max-w-7xl mx-auto grid gap-10 content-center justify-items-center md:grid-cols-2">
+        <div className="text-white text-center content-center md:text-left md:ml-16">
+          <p className="font-primaryRegular text-lg md:text-md lg:text-xl">Hi, my name is</p>
           <h1 className="font-primaryBold text-3xl md:text-4xl lg:text-5xl xl:text-6xl">Paolo Baltazar,</h1>
-          <h1 className="font-primaryBold text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-8">Software Engineer</h1>
+          <h1 className="font-primaryBold text-3xl md:text-4xl lg:text-5xl xl:text-6xl mb-8">Web Developer</h1>
 
           <p className="font-primaryRegular mb-8 lg:text-lg">
             Aspiring web developer passionate about creating dynamic and responsive websites. I specialize in HTML, CSS, JavaScript, and React, aiming to build efficient and user-friendly applications.
