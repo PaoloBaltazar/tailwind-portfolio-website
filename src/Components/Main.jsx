@@ -11,7 +11,7 @@ export function Main() {
   const isMobile = useMediaQuery({ maxWidth: 640 }); // Tailwind's `sm` breakpoint
 
   return (
-    <div className="pt-36 overflow-x-hidden">
+    <div className="pt-36 overflow-x-hidden overflow-y-hidden">
       {isMobile ? (
         <div className="px-4 max-w-6xl">
           <div className="max-w-4xl mx-auto antialiased pt-4 relative">
