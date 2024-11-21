@@ -5,7 +5,7 @@ import mail from '../assets/mail-icon.png'
 const Footer = () => {
   return (
     <div className="pt-20">
-      <section>
+      <section className='overflow-x-hidden'>
         <div className="text-white justify-items-center py-12 pt-">
 
           <div className="bg-gradient-to-r from-transparent via-neutral-200 dark:via-neutral-600 to-transparent h-[1.5px] w-full mb-8" />

@@ -6,13 +6,12 @@ import Skills from './Skills';
 import { Projects } from './Projects';
 import Contact from './Contact';
 import { useMediaQuery } from 'react-responsive';
-import Footer from './Footer';
 
 export function Main() {
   const isMobile = useMediaQuery({ maxWidth: 640 }); // Tailwind's `sm` breakpoint
 
   return (
-    <div className="pt-36">
+    <div className="pt-36 overflow-x-hidden">
       {isMobile ? (
         <div className="px-4 max-w-6xl">
           <div className="max-w-4xl mx-auto antialiased pt-4 relative">

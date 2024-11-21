@@ -1,15 +1,15 @@
 const About = () => {
   return (
     <div className="max-w-7xl mx-auto px-4 mb-36">
-      <section className=" text-white content-center ">
+      <section className=" text-white content-center justify-items-center overflow-x-hidden">
         <div className="justify-items-center mb-8 ">
           <div>
-            <h1 className="font-primaryBold text-3xl lg:text-5xl">About</h1>
+            <h1 className="font-primaryBold text-3xl lg:text-5xl text-center">About</h1>
             <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-4 h-[1px] w-full" />
           </div>
           
           
-          <h2 className="font-primaryMedium text-lg mt-2 lg:text-xl">
+          <h2 className="font-primaryMedium text-lg mt-2 lg:text-xl text-center">
             Hi, I’m Paolo, Nice to Meet you. 
           </h2>
           

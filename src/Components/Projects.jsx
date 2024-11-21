@@ -9,16 +9,16 @@ import hotelApp from '../assets/bchainProject.png'
 
 export function Projects() {
   return (
-    (<div className="max-w-7xl mx-auto px-4 mt-36 relative z-10">
-      <section className="text-white content-center"> 
+    (<div className="max-w-7xl mx-auto px-4 mt-36 relative z-10 overflow-x-hidden">
+      <section className="text-white content-center justify-items-center"> 
         <div className="justify-items-center mb-8">
           <div>
-            <h1 className="font-primaryBold text-3xl lg:text-5xl">Projects</h1>
+            <h1 className="font-primaryBold text-3xl lg:text-5xl text-center">Projects</h1>
             <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-4 h-[1px] w-full" />
           </div>
           
           
-          <h2 className="font-primaryMedium text-lg mt-2 lg:text-xl">
+          <h2 className="font-primaryMedium text-lg mt-2 lg:text-xl text-center">
             Check out some of my work right here
           </h2>
           

@@ -17,12 +17,12 @@ const Skills = () => {
       <section className="text-white content-center">
         <div className="justify-items-center mb-8">
           <div>
-            <h1 className="font-primaryBold text-3xl lg:text-5xl">Skills</h1>
+            <h1 className="font-primaryBold text-3xl lg:text-5xl text-center">Skills</h1>
             <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-4 h-[1px] w-full" />
           </div>
           
           
-          <h2 className="font-primaryMedium text-lg mt-2 lg:text-xl">
+          <h2 className="font-primaryMedium text-lg mt-2 lg:text-xl text-center">
             These are the technologies I’ve worked with
           </h2>
           
