@@ -24,7 +24,7 @@ export function Projects() {
           
         </div>
 
-        <div className="grid gap-16 justify-items-center mb-16 md:grid-cols-2 lg:grid-cols-3 content-center">
+        <div className="grid gap-16 justify-items-center mb-16 md:grid-cols-2 lg:grid-cols-3">
           <PinContainer title="/PaoloBaltazar/Meta-LittleLemon-Booking-Website" href="https://github.com/PaoloBaltazar/Meta-LittleLemon-Booking-Website">
           <div
             className="flex basis-full  flex-col p-4 tracking-tight text-slate-100/50 sm:basis-1/2 w-[18rem] h-[18rem] ">

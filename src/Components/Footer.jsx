@@ -10,7 +10,7 @@ const Footer = () => {
 
           <div className="bg-gradient-to-r from-transparent via-neutral-200 dark:via-neutral-600 to-transparent h-[1.5px] w-full mb-8" />
         
-          <div className="flex gap-5 mb-4 content-center">
+          <div className="flex gap-5 mb-4 content-center justify-items-center">
             <img className= 'h-8 cursor-pointer' src={github}/>
             <img className= 'h-8 cursor-pointer' src={linkedIn}/>
             <img className= 'h-8 cursor-pointer' src={mail}/>
