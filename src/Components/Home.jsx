@@ -4,7 +4,7 @@ import SocialLinks from './SocialLinks'; // Import the SocialLinks component
 
 const Home = () => {
   return (
-    <div className="h-lvh w-full bg-black bg-grid-small-white/[0.2] relative flex items-center justify-center overflow-x-hidden">
+    <div className="h-screen w-full bg-black bg-grid-small-white/[0.2] relative flex items-center justify-center overflow-x-hidden">
       <Spotlight
         className="-top-40 left-0 md:left-50 md:-top-20"
         fill="white"
